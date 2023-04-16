@@ -1,0 +1,56 @@
+    1  systemctl enable mariadb
+    2  systemctl start maraiadb
+    3  systemctl start mariadb
+    4  systemctl status mariadb
+    5  sudo ufw app list
+    6  sudo ufw app info "Apache Full
+    7  "
+    8  sudo ufw app info "Apache Full"
+    9  sudo ufw allow in "Apache Full"
+   10  systemctl enable apache2
+   11  systemctl start apache2
+   12  systemctl status apache2
+   13  mariadb -v
+   14  git clone https://github.com/Anish-U/NewsGrid.git
+   15  sudo apt install php libapache2-mod-php php-mysql
+   16  cd NewsGrid
+   17  ls
+   18  sudo nano /etc/apache2/mods-enabled/dir.conf
+   19  sudo vim  /etc/apache2/mods-enabled/dir.conf
+   20  sudo systemctl restart apache2
+   21  sudo systemctl status apache2
+   22  php -v
+   23  sudo apt install php7.2-common php7.2-mysql php7.2-xml php7.2-xmlrpc php7.2-curl php7.2-gd php7.2-imagick php7.2-cli php7.2-dev php7.2-imap php7.2-mbstring php7.2-opcache php7.2-soap php7.2-zip php7.2-intl -y
+   24  apt install php7.2-common php7.2-mysql php7.2-xml php7.2-xmlrpc php7.2-curl php7.2-gd php7.2-imagick php7.2-cli php7.2-dev php7.2-imap php7.2-mbstring php7.2-opcache php7.2-soap php7.2-zip php7.2-intl -y
+   25  sudo systemctl restart apache2
+   26  php index.php
+   27  ls
+   28  vim index.html
+   29  cd includes
+   30  ls
+   31  vim database.inc.php 
+   32  mysql -h newsgrid.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p
+   33  cd ..
+   34  mysql -h newsgrid.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p
+   35  cd ../..
+   36  cd ..
+   37  cd ./
+   38  cd /var/www/html/NewsGrid
+   39  mysql -h newsgrid1.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p
+   40  [200~mysql -u username -p database_name < file.sql
+   41  create databse news;
+   42  create database news;
+   43  create database news-portal;
+   44  pcreate database news-portal;
+   45  create database news-portal;
+   46  mysql -h newsgrid1.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p
+   47  mysql -u root -p newsportal < news-portal.sql
+   48  mysql -h newsgrid1.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p newsportal < news-portal.sql
+   49  mysql -h newsgrid1.cqrnndgxn4l4.ap-south-1.rds.amazonaws.com -P 3306 -u root -p
+   50  ls
+   51  cd includes
+   52  ls
+   53  vim database.inc.php
+   54  history
+   55  cd /var/www/html/NewsGrid
+   56  history > history.txt
